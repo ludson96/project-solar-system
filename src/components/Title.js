@@ -1,9 +1,9 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 class Title extends React.Component {
   render() {
     const { headline } = this.props;
-    console.log('teste', headline);
     return (
       <h2>{headline}</h2>
     );
