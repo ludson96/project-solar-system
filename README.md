@@ -2,7 +2,7 @@
 
 # :construction: Estilização em desenvolvimento ! :construction:
 
-## Módulo: FUNDAMENTOS
+## Módulo: Front-end
 
  Repositório possuí projeto desenvolvido no período que estive na **Trybe**, abordando conceitos de React com criação de componentes de classe e passagem de props.
 
