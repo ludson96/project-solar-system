@@ -1,189 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap') ;
+
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
-  background: url("./images/background.png");
+  background: url('./images/background.png');
   background-attachment: fixed;
 }
 
 header {
-  /* border: 2px solid red; */
-  width: 100%;
   box-sizing: border-box;
+  width: 100%;
 }
 
 .solar {
-  /* border: 2px solid yellow; */
-  width: 100%;
-  font-weight: 600;
-  font-size: 100px;
-  line-height: 150%;
-  color: #FFFFFF;
-  text-align: center;
   box-sizing: border-box;
+  color: white;
+  font-size: 100px;
+  font-weight: 600;
+  line-height: 150%;
+  text-align: center;
+  width: 100%;
 }
 
 .container-title {
-  /* border: 5px solid red; */
-  width: 1100px;
-  height: 98px;
   background: rgba(24, 26, 37, 0.5);
-  mix-blend-mode: hard-light;
-  border: 1px solid #FFFFFF;
+  border: 1px solid white;
   border-radius: 17px;
-  margin-top: 10px;
+  height: 98px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 10px;
+  mix-blend-mode: hard-light;
+  width: 1100px;
 }
+
 .container-title:hover {
   background-color: #fdfdfd44;
 }
 
 .title {
-  /* border: 5px solid yellow; */
-  font-weight: 500;
+  color: white;
   font-size: 50px;
+  font-weight: 500;
   line-height: 150%;
-  color: #FFFFFF;
-  text-align: center;
   margin-top: 10px;
+  text-align: center;
 }
 
 .container-planet {
-  /* border: 5px solid red; */
-  display: flex;
-  justify-content: center;
   align-items: center;
-  width: 100%;
+  display: flex;
   height: 282.54px;
+  justify-content: center;
   left: 115px;
   top: 413px;
+  width: 100%;
 }
 
 .Mercúrio {
-/* border: 5px solid yellow; */
-width: 41px;
-height: 31px;
+  height: 31px;
+  transition: transform 0.2s ease-in-out;
+  width: 41px;
 }
 
 .Vênus {
-/* border: 5px solid yellow; */
-width: 102px;
-height: 76px;
+  height: 76px;
+  transition: transform 0.2s ease-in-out;
+  width: 102px;
 }
 
 .Terra {
-  /* border: 5px solid yellow; */
-  width: 106px;
   height: 79px;
+  transition: transform 0.2s ease-in-out;
+  width: 106px;
 }
 
 .Marte {
-  /* border: 5px solid yellow; */
-  width: 66px;
   height: 50px;
+  transition: transform 0.2s ease-in-out;
+  width: 66px;
 }
 
 .Júpiter {
-  /* border: 5px solid yellow; */
-  width: 272px;
   height: 204px;
+  transition: transform 0.2s ease-in-out;
+  width: 272px;
 }
 
 .Saturno {
-  /* border: 5px solid yellow; */
+  height: 210.9px;
+  transition: transform 0.2s ease-in-out;
   width: 282.41px;
-  height: 210.9px
 }
 
 .Urano {
-  /* border: 5px solid yellow; */
-  width: 144px;
   height: 109px;
+  transition: transform 0.2s ease-in-out;
+  width: 144px;
 }
 
 .Netuno {
-  /* border: 5px solid yellow; */
-  width: 144px;
   height: 107px;
+  transition: transform 0.2s ease-in-out;
+  width: 144px;
 }
 
-
 .planet-name {
-  /* border: 5px solid yellow; */
+  color: white;
   text-align: center;
-  color: #FFFFFF;
 }
 
 .Mercúrio:hover {
-  /* border: 5px solid yellow; */
-  width: 82px;
-  height: 62px;
-  }
-  
-  .Vênus:hover {
-  /* border: 5px solid yellow; */
-  width: 204px;
-  height: 152px;
-  }
-  
-  .Terra:hover {
-    /* border: 5px solid yellow; */
-    width: 212px;
-    height: 158px;
-  }
-  
-  .Marte:hover {
-    /* border: 5px solid yellow; */
-    width: 132px;
-    height: 100px;
-  }
-  
-  .Júpiter:hover {
-    /* border: 5px solid yellow; */
-    width: 322px;
-    height: 254px;
-  }
-  
-  .Saturno:hover {
-    /* border: 5px solid yellow; */
-    width: 332.41px;
-    height: 260.9px
-  }
-  
-  .Urano:hover {
-    /* border: 5px solid yellow; */
-    width: 288px;
-    height: 218px;
-  }
-  
-  .Netuno:hover {
-    /* border: 5px solid yellow; */
-    width: 288px;
-    height: 214px;
-  }
+  transform: scale(1.2);
+}
 
+.Vênus:hover {
+  transform: scale(1.2);
+}
 
+.Terra:hover {
+  transform: scale(1.2);
+}
 
-.contain-mission{
-  /* border: 5px solid red; */
-  /* margin-top: 10px; */
+.Marte:hover {
+  transform: scale(1.2);
+}
+
+.Júpiter:hover {
+  transform: scale(1.2);
+}
+
+.Saturno:hover {
+  transform: scale(1.2);
+}
+
+.Urano:hover {
+  transform: scale(1.2);
+}
+
+.Netuno:hover {
+  transform: scale(1.2);
+}
+
+.contain-mission {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 0 300px 0 300px;
+  margin: 0 300px;
 }
 
 .mission-card {
-  margin: 10px; 
-  width: 354px;
   background: rgba(24, 26, 37, 0.5);
-  mix-blend-mode: hard-light;
-  border: 1px solid #FFFFFF;
+  border: 1px solid white;
   border-radius: 17px;
+  margin: 10px;
+  mix-blend-mode: hard-light;
+  width: 354px;
 }
 
 .mission-card:hover {
@@ -191,19 +167,16 @@ height: 76px;
 }
 
 .mission-title {
-  /* border: 5px solid yellow; */
-  color: #FFFFFF;
-  border-bottom: 1px #FFFFFF solid ;
-  margin: 10px;
-  font-family: 'Epilogue';
+  border-bottom: 1px white solid;
+  color: white;
+  font-size: 35px;
   font-style: normal;
   font-weight: 700;
-  font-size: 35px;
   line-height: 120%;
-  color: #FFFFFF;
+  margin: 10px;
 }
+
 .mission-content {
-  /* border: 5px solid yellow; */
-  color: #FFFFFF;
-  margin: 10px
+  color: white;
+  margin: 10px;
 }

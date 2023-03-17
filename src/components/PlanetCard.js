@@ -14,6 +14,9 @@ class PlanetCard extends React.Component {
             className={ planetName }
           />
           <div>
+            {' '}
+            {planetName}
+            {' '}
           </div>
         </p>
       </div>
