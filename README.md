@@ -1,4 +1,4 @@
-# Repositório do projeto Solar System
+# Repositório do projeto Solar System 🌞
 
 # :construction: Estilização em desenvolvimento ! :construction:
 
